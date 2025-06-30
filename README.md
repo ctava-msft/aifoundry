@@ -10,7 +10,7 @@ An 'Azure AI Hub' is a special kind of 'Azure Machine Learning workspace', that 
 
 ## Design
 
-This deployment creates a fully private Azure AI Studio environment with:
+This deployment creates a fully private Azure AIFoundry environment with:
 - **Inbound Access**: Disabled public access, enabled from selected IP addresses only
 - **Outbound Access**: Private with Allow Internet Outbound enabled
 - **Identity**: System-managed identity with credential-based authentication
@@ -90,7 +90,7 @@ The following table describes the resources created in the deployment:
 - **Trusted Services**: Microsoft trusted services allowed
 
 ### AI Foundry Project
-- **Model Deployment**: GPT-4o-mini model deployment ready
+- **Model Deployment**: GPT-4.1 model deployment ready
 - **Data Sources**: PDF upload capability to AI Foundry Data
 - **Chat Playground**: Ready with data source integration
 
@@ -102,9 +102,9 @@ The following table describes the resources created in the deployment:
 
 ## Learn more
 
-If you are new to Azure AI studio, see:
+If you are new to Azure AIFoundry, see:
 
-- [Azure AI studio](https://aka.ms/aistudio/docs)
+- [Azure AIFoundry](https://aka.ms/aistudio/docs)
 - [Securely use playground chat - Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/secure-playground-chat)
 
 If you are new to Azure Machine Learning, see:
@@ -117,5 +117,5 @@ If you are new to Azure Machine Learning, see:
 
 Reference:
 
-- [AI studio Managed Network](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/configure-managed-network?tabs=portal)
-- [Azure AI Studio private networking](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/configure-private-link)
+- [AIFoundry Managed Network](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/configure-managed-network?tabs=portal)
+- [Azure AIFoundry private networking](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/configure-private-link)
