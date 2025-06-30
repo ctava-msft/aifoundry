@@ -38,7 +38,7 @@
     "projectName": "[format('p-{0}', variables('uniqueSuffix'))]",
     "azureOpenAIConnectionName": "[format('{0}-connection-AzureOpenAI', variables('workspaceName'))]",
     "azureAISearchConnectionName": "[format('{0}-connection-AzureAISearch', variables('workspaceName'))]",
-    "gptDeploymentName": "gpt-4.1",
+    "gptDeploymentName": "gpt-4o-mini",
     "roleDefinitions": {
       "cognitiveServicesOpenAIContributor": "a001fd3d-188f-4b5d-821b-7da978bf7442",
       "cognitiveServicesOpenAIUser": "5e0bd9bd-7b93-4f28-af87-19fc36ad61bd",
